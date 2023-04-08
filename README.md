@@ -19,7 +19,7 @@ The main function if AOI is detection of defect fields and segmentation, so in 2
 ## RELATED WORKS
 Google's [*"Attention is all you need"*](https://arxiv.org/abs/1706.03762) published in 2017 kicked open the door to the world of AI. In the past, neural networks (such as CNNs and RNNs) were modeled based on certain artificially given assumptions, such as locality and translation invariance in convolutional operations, but these assumptions also made NLP tasks unsuccessful after all. Therefore, a new type of Transformer network has been proposed that enables neural networks to perceive both spatial and temporal information by combining Positional-Encoding and Self-Attention mechanisms to facilitate the processing of cross-domain data types.
 
-##### *More materials about Transformers stored in repository* [`/MarkovChen/NLP`]()
+##### *More materials about Transformers stored in repository* [`/MarkovChen/Deep-Learning-for-Self-Supervised-Learning`]()
 
 - **Vision Transformer, ViT**
 Since the success of AlexNet at [ICCV](https://ieeexplore.ieee.org/xpl/conhome/1000149/all-proceedings) in 2012, convolutional neural networks have been a major technique in CV, and various innovative architectures based on convolutional operations, such as ResNet, VGG, ResNet, and U-Net, have emerged in full swing, but they all seem to face intractable dilemmas in terms of cross-domain scalability.<br>
