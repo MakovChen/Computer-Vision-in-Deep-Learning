@@ -1,31 +1,55 @@
 # Computer Vision in Deep Learning
 
-## 目錄
+## CONTENT
 
-- [背景](#背景)
-    - [資料集介紹與評估方法](#資料集介紹與評估方法)
-- [相關的研究進展](#資料集)
-- [程式碼與內容說明](#程式碼與內容說明)
-
-
-## 背景
-### 資料集介紹與評估方法
-- **Classification Datasets**
-[CIFAR-10](https://paperswithcode.com/sota/image-classification-on-cifar-10)：由60,000張32x32的RGB圖像組成，其標籤有10種類別，如：車車、飛機、鳥...等。
+- [BACKGROUND](#BACKGROUND)
+- [RELATED WORKS](#RELATEDWORKS)
+- [VALID SOLUTIONS](#VALIDSOLUTIONS)
+- [IMPLEMENT](#IMPLEMENT)
 
 
 
-## 相關的研究進展
+## BACKGROUND
+Explore some novel methodology with higher performance and rubustness for ***AOI Fault Detection*** & ***Vision-based Servo Control***.
 
+## RELATED WORKS
+- **Vision Transformer, ViT**
+
+<img src="https://i.imgur.com/xp83Jfl.png" width = "650"/>
+
+|*tasks*|`Image-Classification`|
+| :---:|:---:|
+|   *code*   |[Github](https://github.com/google-research/vision_transformer.git)| 
+| *Environment*|Tensorflow|
+
+****
 - **Shifted Window Transformer, Swin**
-Swin是一種層次化結構的Transformer網路，其是使用移位窗口來表示一張圖片。藉由將自注意力機制限制在不重疊的區域窗口，並允許跨窗口來提高效率。其補足了前一個版本 (**ViT**)於卷積特性(locality及inductive biases)上的缺點，將性能擴展到**物件偵測**及**語意分割**。並且加上Transformer原本在NLP上的優越性，使Swin成為目前CV/NLP/CV+NLP的通用主幹。
 
-## 程式碼與內容說明
+<img src="https://i.imgur.com/vqubjjM.png" width = "650"/>
 
-|        模型     | `SwinTransformer`          |``            |``                |
-| :---:           | :---:            | :---:            | :---:            | 
-|   任務   |  影像分類    |  - | -    | 
-|   資料集   |  CIFAR_100    |  - | -    | 
-|   檔案   |  [[1]](#SwinTransformer_CIFAR_100.ipynb)   |  -  |   -   | 
+##### The official implementation for "Swin Transformer: Hierarchical Vision Transformer using Shifted Windows".[[arxiv2103.14030]](https://arxiv.org/abs/2103.14030)
 
-#### [1] SwinTransformer_CIFAR_100.ipynb
+|*tasks*|`Image-Classification`|`Object-Detection`|`Semantic-Segmentation`|
+| :---:|:---:|:---:|:---:| 
+|   *code*   |[Github](https://github.com/microsoft/Swin-Transformer.git)|  [Github](https://github.com/SwinTransformer/Swin-Transformer-Object-Detection)   |[Github](https://github.com/SwinTransformer/Swin-Transformer-Semantic-Segmentation.git)| 
+| *Environment*|PyTorch|PyTorch|PyTorch| 
+
+## VALID SOLUTIONS
+- **TransGAN**
+SwinTransformer Data Augmentation and Generation. [[arxiv2102.07074]](https://arxiv.org/abs/2102.07074)/[[Github]](https://github.com/VITA-Group/TransGAN.git).
+
+<img src="https://i.imgur.com/yWxFzSC.jpg" width = "640"/>
+
+****
+
+- **Swin Transformer based Reinforcement Learning**
+On-Policy.[[arxiv2206.15269]](https://arxiv.org/abs/2206.15269)
+
+
+
+## IMPLEMENT
+### Keras
+* [SwinTransformer_CIFAR_100.ipynb]()
+
+### Github
+(not tried yet)
