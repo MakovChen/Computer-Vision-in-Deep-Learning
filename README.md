@@ -42,7 +42,7 @@ Among them, Swin introduces a lot of prior knowledge that has been successful in
 - **TransGAN**
 SwinTransformer Data Augmentation and Generation. [[arxiv2102.07074]](https://arxiv.org/abs/2102.07074)/[[Github]](https://github.com/VITA-Group/TransGAN.git).
 
-##### *More materials about GAN stored in repository* [`MakovChen/Generative-Models`]()
+##### *More materials about GAN stored in repository* [`MakovChen/Deep-Learning-for-Structured-Models`]()
 
 <img src="https://i.imgur.com/yWxFzSC.jpg" width = "640"/>
 
